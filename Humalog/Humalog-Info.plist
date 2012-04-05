@@ -11,7 +11,7 @@
 	<key>CFBundleIconFiles</key>
 	<array/>
 	<key>CFBundleIdentifier</key>
-	<string>Astra-Zeneca.${PRODUCT_NAME:rfc1034identifier}.NexiumMups</string>
+	<string>Astra-Zeneca.${PRODUCT_NAME:rfc1034identifier}.NexiumNin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

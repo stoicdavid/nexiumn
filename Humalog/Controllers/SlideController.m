@@ -265,13 +265,13 @@
 - (void)menubarViewDidSelectCategoryButton:(UIButton *)button withIndex:(NSUInteger)index
 {
     currentCategoryIndex = index;
-//    currentSlide = [slideProvider rangeForCategoryIndex:index].location;
-//    [self loadContent];
+    currentSlide = [slideProvider rangeForCategoryIndex:index].location;
+    [self loadContent];
     
     // Move stack
-    [stackView reloadData];
-    [stackView setBaseline:CGPointMake(button.center.x, self.view.bounds.size.height + STACK_OFFSET)];
-    [stackView show];
+//    [stackView reloadData];
+//    [stackView setBaseline:CGPointMake(button.center.x, self.view.bounds.size.height + STACK_OFFSET)];
+//    [stackView show];
 }
 
 - (void)menubarViewDidDeselectCategoryButton:(UIButton *)button withIndex:(NSUInteger)index

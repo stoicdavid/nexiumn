@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#content{
+	width:1024px;
+	height:768px;
+	position: absolute;
+}
+
+
+/*
+Slide
+ */
+
+#headerSlide{
+	width:1024px;
+	height:340px;
+	position: absolute;
+	top:0;
+	background: url(../images/headerSlides.jpg) no-repeat 0 0;
+	display:none;
+	z-index:25;
+}
+
+#textoIntro{
+	display:none;
+	top:53px;
+	left:61px;
+	position: absolute;
+}
+
+#texto1{
+	width:683px;
+	left:5px;
+	top:120px;
+	margin-left:45px;
+	display:none;
+	position:absolute;
+	z-index:20;
+}	
+	
+#esquema1{
+	width:742px;
+	left:0;
+	top:200px;
+	margin:65px 0 0 100px;
+	display:none;
+	position:absolute;
+	z-index:25;
+}
+
+#imagen1{
+	width:742px;
+	left:0;
+	top:200px;
+	margin:65px 0 0 100px;
+	display:none;
+	position:absolute;
+	z-index:20;
+}
+
+#esquema1 img{
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+#slide2BotonA{
+	z-index: 60;
+	
+}
+
+#slide2BotonB{
+	z-index: 50;
+}
+#slide2BotonC{
+	z-index: 40;
+}
+
+/*#cajaA, #cajaB, #cajaC, {
+	display:none;
+	z-index:0;
+	
+}*/

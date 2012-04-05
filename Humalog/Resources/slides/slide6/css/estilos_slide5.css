@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#content{
+	width:1024px;
+	height:768px;
+	position: absolute;
+}
+
+
+/*
+Cierre
+ */
+
+#headerCierre{
+	width:1024px;
+	height:193px;
+	position: absolute;
+	top:0;
+	background:url("../images/slide5_pleca.png") no-repeat 0 0;
+	display:none;
+}
+
+#textoIntro{
+	display:none;
+	top:53px;
+	left:61px;
+	position: absolute;
+}
+
+
+#nuevoNexium{
+	position:absolute;
+	top:15px;
+	left:35px;
+	display:none;
+	z-index: 15;
+}
+
+
+#sello{
+	width:207px;
+	height:172px;
+	position: absolute;
+	top:5px;
+	left:750px;
+	display:none;
+}
+
+#cuerpo{
+	height:668px;
+	position: absolute;
+	top:100px;
+	z-index:20;
+	width:1024px;
+}
+
+#texto1{
+	width:362px;
+	left:600px;
+	top:20px;
+	margin-left:-251px;
+	display:none;
+	position:absolute;
+	z-index:20;
+}	
+	
+#texto2{
+	width:294px;
+	left:305px;
+	top:205px;
+	margin-left:-266px;
+	display:none;
+	position:absolute;
+	z-index:25;
+}
+
+#tabla1{
+	position:absolute;
+	top:160px;
+	left:130px;
+	display:none;
+	z-index: 35;
+}
+
+#texto3{
+	width:496px;
+	left:305px;
+	top:425px;
+	margin-left:-266px;
+	display:none;
+	position:absolute;
+	z-index:45;
+}
+
+#tabla2{
+	position:absolute;
+	top:450px;
+	left:10px;
+	display:none;
+	z-index: 55;
+}
+
+#tabla3{
+	position:absolute;
+	top:280px;
+	left:850px;
+	display:none;
+	z-index: 55;
+}
+/*      BOTONES     */
+
+#botonA{
+	position:absolute;
+	top:195px;
+	right:520px;
+	display:none;
+	z-index: 65;}
+	
+#botonB{
+	position:absolute;
+	top:195px;
+	right:370px;
+	display:none;
+	z-index: 66;}
+	
+#botonC{
+	position:absolute;
+	top:195px;
+	right:220px;
+	display:none;
+	z-index: 67;}
+	
+#tablaA{
+	position:absolute;
+	top:250px;
+	left:60px;
+	display:none;
+	z-index: 35;}
+	
+#tablaB{
+	position:absolute;
+	top:250px;
+	left:60px;
+	display:none;
+	z-index: 35;}
+	
+#tablaC{
+	position:absolute;
+	top:250px;
+	left:60px;
+	display:none;
+	z-index: 35;}

@@ -1,33 +1,131 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
-	<meta name="viewport" content="user-scalable=yes, width=1024" />
-	<title>slide2</title>
-	<style>
-		body {
-			background-color: #FFFFFF;
-			margin: 0px;
-		}
-	</style>
-	
-  </head>
-  <body>
-	<div style ="margin:auto;width:1024px">
+<!DOCTYPE html> 
+<html> 
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Reflujo y ERGE</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="js/jquery.delay.js" type="text/javascript" charset="utf-8"></script>
+		<link href="css/estilos.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+		$(window).load(function() {
+			//animación para en fondo del header
+			$("#header").fadeIn("slow");
 
+			//animación para el título del slide
+			$(this).delay(1000, function() {
+				
+				
+				$(".titulo1").stop().animate({
+					left : '55px'
+				}, {
+					queue : false,
+					duration : 1000,
+					easing : 'easeOutBack'
+				});
+				$(".titulo1").fadeIn("slow")
+			});
+			
+			//animación de la primer caja de texto
+			$(this).delay(2000, function() {
+				
+				
+				$(".caja1").stop().animate({
+					width : '614px'
+				}, {
+					queue : false,
+					duration : 500,
+					easing : 'easeOutBack'
+				});
+				$(".caja1").fadeIn("slow")
+			});
+			
+			//animación del subtitulo dentro de la primer caja de texto
+			$(this).delay(2500, function() {
+				$(".subtitulo1").fadeIn("slow");
+			});
+			
+			//animación de la segunda caja de texto
+			$(this).delay(3000, function() {
+				
+				
+				$(".caja2").stop().animate({
+					width : '614px'
+				}, {
+					queue : false,
+					duration : 500,
+					easing : 'easeOutBack'
+				});
+				$(".caja2").fadeIn("slow")
+			});
+			
+			//animación del subtitulo dentro de la segunda caja de texto
+			$(this).delay(3500, function() {
+				$(".subtitulo2").fadeIn("slow");
+			});
+			
+			//aparece el texto de la primera caja
+			$(this).delay(2500, function() {
+				
+				
+				$("#texto1").stop().animate({
+					top : '10px'
+				}, {
+					queue : false,
+					duration : 500,
+					easing : 'easeOutBack'
+				});
+				$("#texto1").fadeIn("slow")
+			});
+			
+			//aparece el segundo texto
+			$(this).delay(3500, function() {
+				
+				
+				$("#texto2").stop().animate({
+					top : '15px'
+				}, {
+					queue : false,
+					duration : 500,
+					easing : 'easeOutBack'
+				});
+				$("#texto2").fadeIn("slow")
+			});
+		});
 
-	
-	<!-- copy these lines to your document: -->
+	</script>
+</head>
+	<body style="background#666;">
+		<div id="content">
+			
+				<div id="header"></div>
+				<div id="cuerpo">
+					<div class="titulo1"><img src="images/hastaEl70.png" alt="texto1"></div>
+					<div id="cajas">
+						
+						<div class="box caja1">
+							<div class="subtitulo1"><img src="images/titulo1.png" width="248" height="44" alt="titulo1"></div>
+							<div class="contenedor">
+									<div id="texto1">
+									<img src="images/texto1.png"  width="502" height="65">
+									</div>
+								</div>
+						</div>
+						
+						<div class="box caja2">
+							<div class="subtitulo2"><img src="images/titulo2.png" width="426" height="43" alt="titulo2" /></div>
+							<div class="contenedor">
+									<div id="texto2">
+										<img src="images/texto2.png" width="533" height="114">
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				
+			
+		</div>
+		
 
-	<div id="slide2_hype_container" style="position:relative;overflow:hidden;width:1024px;height:668px;">
-		<script type="text/javascript" charset="utf-8" src="slide2_Resources/slide2_hype_generated_script.js?85237"></script>
-	</div>
-
-	<!-- end copy -->
-	
-
-
-	</div>
-  </body>
+	</body>
 </html>

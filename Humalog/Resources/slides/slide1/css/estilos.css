@@ -1,0 +1,290 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body#apertura {
+	background: url("../images/bgApertura.jpg") no-repeat 0 0;	
+}
+
+#content{
+	width:1024px;
+	height:768px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+/*
+ Apertura
+ */
+
+#headerApertura{
+	width:1024px;
+	height:340px;
+	position: absolute;
+	top:0;
+	background:url("../images/headerApertura.png") no-repeat 0 0;
+	display:none;
+}
+
+#textoIntro{
+	display:none;
+	top:53px;
+	left:61px;
+	position: absolute;
+}
+
+#personaje1{
+	width:181px;
+	height:198px;
+	position: absolute;
+	top:275px;
+	left:510px;
+	display:none;
+}
+
+#personaje2{
+	width:220px;
+	height:257px;
+	position: absolute;
+	top:340px;
+	left:710px;
+	display:none;
+}
+
+#personaje3{
+	width:281px;
+	height:307px;
+	position: absolute;
+	top:305px;
+	left:190px;
+	display:none;
+}
+/*Fin apertura*/
+
+/*Slide 4*/
+
+#nuevoNexium{
+	position:absolute;
+	top:145px;
+	left:395px;
+	display:none;
+	z-index: 15;
+}
+#grafica{
+	top:180px;
+	left:35px;
+	position: absolute;
+	display:none;
+	z-index: 11;
+	
+}
+
+#header{
+	background-image:url("../images/headerSlides.jpg");
+	background-repeat:no-repeat;
+	display:none;
+	width:1024px;
+	height:195px;
+	position:absolute;
+	top:0;
+	z-index: 10;
+}
+
+#cuerpo{
+	height:668px;
+	position: absolute;
+	top:100px;
+	z-index:20;
+	width:1024px;
+}
+
+div.titulo1{
+	position: absolute;
+	top:0;
+	left:105px;
+	display:none;
+}
+#cajas{
+	position: absolute;
+	top:180px;
+	left:50%;
+	margin-left:-327px;
+	width:634px;
+}
+
+.box{
+	border-radius:20px;
+	background:#fdfdfd;
+	width:414px;
+	padding: 25px 25px 15px;
+	box-shadow: 0 0 5px #888;
+	display:none;
+	margin:auto;
+	position:relative;
+	
+	background: url("../images/bottomBox.jpg") 50% 98% no-repeat;
+background: 
+	url("../images/bottomBox.jpg") 50% 98%  no-repeat,
+	-webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#EFEFEF)) 0 0 no-repeat;
+background: 
+	url("../images/bottomBox.jpg") 10px 10px no-repeat,
+
+	-moz-linear-gradient(#FFF, rgba(0,0,0,1)) 0 0 no-repeat;
+	
+/*background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.04, rgb(0,239,239)),
+	color-stop(0.52, rgb(255,255,255))
+), url("images/bottomBox.jpg")
+*/
+}
+
+.caja1{
+	height:85px;
+	margin-bottom:45px;
+
+	}
+
+.caja2{
+	height:150px;
+}
+
+.subtitulo1{
+	position: absolute;
+	top: -20px;
+	width:248px;
+	left:50%;
+	margin-left:-124px;
+	display:none;
+}
+ 
+.subtitulo2{
+	position: absolute;
+	top: -20px;
+	width:426px;
+	left:50%;
+	margin-left:-213px;
+	display:none;
+}
+
+.contenedor{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+#texto1{
+	width:502px;
+	left:50%;
+	top:-15px;
+	margin-left:-251px;
+	display:none;
+	position:absolute;}
+	
+#texto2{
+	width:533px;
+	left:50%;
+	top:-15px;
+	margin-left:-266px;
+	display:none;
+	position:absolute;
+}
+
+#tapaGris{
+	width: 111px; height: 0px; z-index: 20;
+	background: 
+	url("../images/slide4TapaGris.jpg") 100% 0  no-repeat,
+	url("../images/slide4BarraGris.jpg") 0 100%  repeat-y;
+	position: absolute; bottom: 0px; left:0;
+	
+}
+
+#tapaMorada{
+	width: 105px; height: 0px; z-index: 20;
+	background: 
+	url("../images/slide4TapaMorada.jpg") -2px 0  no-repeat,
+	url("../images/slide4BarraMorada.jpg") 1px 100%  repeat-y;
+	position: absolute; bottom: 0px;right:2px;
+	
+}
+
+#tapaGris img, #tapaMorada img{
+	display: none;
+	position: absolute;
+	top:-15px;
+}
+
+#botonA {
+	
+	position: absolute;
+	top:-15px;
+	z-index: 40;
+}
+
+#botonB{
+	position: absolute;
+	top:-15px;
+	z-index: 50;
+}
+#barraAcomp{
+	height:0px; /*119px*/
+	width:68px;
+	background:#bcbdc0;
+	position: absolute;
+	left:390px;
+	bottom:45px;
+	z-index: 5;
+}
+
+#barraBcomp{
+	height:0px; /*119px*/
+	width:68px;
+	background:#bcbdc0;
+	position: absolute;
+	left:562px;
+	bottom:45px;
+	z-index: 5;
+}
+
+#barraA img, #barraB img{
+	position:absolute;top:-13px; left:50%; margin-left:-11px;
+	display: none;
+}
+
+#slide4Texto1{
+	position: absolute;
+	top: 536px;
+	left: 30px;
+	display:none;
+}
+#slide4Texto2{
+	left:542px;
+	top:307px;
+	position: absolute;
+	display:none;
+}
+#slide4Texto3{
+	left:542px;
+	top:421px;
+	position: absolute;
+	display:none;
+}
+#slide4Texto4{
+	left:542px;
+	top:530px;
+	position: absolute;
+	display:none;
+}
+#slide4Lactantes{
+	display: none;
+	position: absolute;
+	left:725px;
+	top:85px;
+	z-index: 20;
+}
