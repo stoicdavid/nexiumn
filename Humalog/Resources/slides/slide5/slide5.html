@@ -18,15 +18,12 @@
 				$("#nuevoNexium").fadeIn("slow")
 			});
 			
-			$(this).delay(4500, function() {
+			$(this).delay(1500, function() {
 				
 				$("#grafica").fadeIn("slow")
 			});
 			
-			
-			
-			
-			/*$(this).delay(2500, function() {
+			$(this).delay(2500, function() {
 				
 				
 				$("#tapaGris").stop().animate({
@@ -73,8 +70,8 @@
 					easing : 'easeOutBack'
 				});
 				
-			});*/
-			$(this).delay(1500, function() {
+			});
+			$(this).delay(4000, function() {
 				
 				
 				$("#slide4Texto1").stop().animate({
@@ -87,7 +84,7 @@
 				$("#slide4Texto1").fadeIn("slow");
 				
 			});
-			$(this).delay(2000, function() {
+			$(this).delay(4500, function() {
 				
 				
 				$("#slide4Texto2").stop().animate({
@@ -100,7 +97,7 @@
 				$("#slide4Texto2").fadeIn("slow");
 				
 			});
-			$(this).delay(2500, function() {
+			$(this).delay(5000, function() {
 				
 				
 				$("#slide4Texto3").stop().animate({
@@ -113,7 +110,7 @@
 				$("#slide4Texto3").fadeIn("slow");
 				
 			});
-			$(this).delay(3000, function() {
+			$(this).delay(5500, function() {
 				
 				
 				$("#slide4Texto4").stop().animate({
@@ -127,52 +124,11 @@
 				
 			});
 			
-			$(this).delay(4000, function() {
+			$(this).delay(6000, function() {
 				
 				$("#slide4Lactantes").fadeIn("slow");
 				
 			});
-			
-			
-			// ANIMACION DE GRAFICAS
-						
-			//clicks
-			
-			$("#botonB").click(function() {
-			
-			$("#tapaGris").animate({
-					height : '140px'
-				}, {
-					queue : false,
-					duration : 500,
-					easing : 'easeOutBack'
-				});
-			$(this).hide();
-			
-			$("#tapaGris img").fadeIn("slow");
-			});
-			
-			
-			
-			$("#botonA").click(function() {
-										
-			$("#tapaMorada").stop().animate({
-					height : '308px'
-				}, {
-					queue : false,
-					duration : 500,
-					easing : 'easeOutBack'
-				});
-			
-			
-				$("#tapaMorada img").fadeIn("slow");
-				
-			
-			});
-			
-			//
-			
-			
 			
 		});
 
@@ -183,16 +139,10 @@
 			
 				<div id="header"></div>
 				<div id="nuevoNexium"><img src="images/nuevoNexium.jpg" alt="Nexium"></div>
-				
-          <div id="grafica"><img src="images/grafica.jpg" alt="grafica"></div>
+				<div id="grafica"><img src="images/grafica.jpg" alt="grafica"></div>
 				<div style="position: absolute; height: 338px;  width: 216px; top: 164px; left:125px;">
-                
-                	<img src="images/btn_graficas.gif" width="557" height="350" id="botonA">
-					<img src="images/btn_graficas.gif" width="557" height="350" id="botonB">
-					
-                  <div id="tapaGris"><img src="images/datosGris.png" style="left:17px;"></div>
-					
-                  <div id="tapaMorada"><img src="images/datosMorada.png" style="left:3px;"></div>
+					<div id="tapaGris"><img src="images/datosGris.png" style="left:17px;"></div>
+					<div id="tapaMorada"><img src="images/datosMorada.png" style="left:3px;"></div>
 					
 				</div>	
 				<div id="slide4Texto1"><img src="images/slide4Texto1.jpg"></div>

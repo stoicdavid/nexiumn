@@ -192,6 +192,16 @@
     [self loadContent];
 }
 
+- (void)loadPDF:(NSString *)pdf
+{
+    [self saveAnnotations];
+    
+    
+    //[self.view addSubview:webView];
+    contentView = [slideProvider viewForPDF:pdf];
+    
+}
+
 - (void)loadLastDocument
 {
     [self saveAnnotations];
@@ -298,17 +308,16 @@
     [self loadLastDocument];
 }
 
-- (void)menubarViewDidPressEstudios
+- (void)menubarViewDidPressReferencias
 {
-    if ([self.parentViewController respondsToSelector:@selector(loadWhitepapers)])
-        [self.parentViewController performSelector:@selector(loadWhitepapers)];
+    [self loadPDF:@"referencias"];
 }
 
 
-//- (void)menubarViewDidPressIPP
-//{
-//    NSLog(@"IPP");
-//}
+- (void)menubarViewDidPressIPP
+{
+    [self loadPDF:@"IPP_NEXIUM_2.5mg"];
+}
 
 - (void)toolbarViewDidPressBack
 {

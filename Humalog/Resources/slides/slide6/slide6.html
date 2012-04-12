@@ -41,28 +41,13 @@
 			$(this).delay(2000, function() {
 				
 				$("#texto1").stop().animate({
-					top : '55px'
+					top : '50px'
 				}, {
 					queue : false,
 					duration : 500,
 					easing : 'easeOutBack'
 				});
 				$("#texto1").fadeIn("slow")
-			});
-			
-			
-			//Botones
-			
-			$(this).delay(2500, function() {
-				
-				$("#botonA, #botonB, #botonC").stop().animate({
-					top : '165px'
-				}, {
-					queue : false,
-					duration : 500,
-					easing : 'easeOutBack'
-				});
-				$("#botonA, #botonB, #botonC").fadeIn("slow")
 			});
 			
 			//aparece el segundo texto
@@ -86,7 +71,7 @@
 			$(this).delay(3500, function() {
 				
 				$("#texto3").stop().animate({
-					top : '390px'
+					top : '345px'
 				}, {
 					queue : false,
 					duration : 500,
@@ -99,37 +84,37 @@
 				
 				$("#tabla2").fadeIn("slow")
 			});
+			
+			$(this).delay(4000, function() {
+				
+				$("#tabla2A").fadeIn("slow")
+			});
+			
+			$(this).delay(4500, function() {
+				
+				$("#tabla2B").fadeIn("slow")
+			});
+			
+			$(this).delay(5000, function() {
+				
+				$("#tabla2C").fadeIn("slow")
+			});
+			
+			$(this).delay(5500, function() {
+				
+				$("#tabla2D").fadeIn("slow")
+			});
+			
+			$(this).delay(6000, function() {
+				
+				$("#tabla2E").fadeIn("slow")
+			});
+			
 			//tercer tabla
 			$(this).delay(4000, function() {
 				
 				$("#tabla3").fadeIn("slow")
 			});
-			
-			//BOTONES FUNCIONANDO
-			
-			$("#botonA").click(function(){
-				$("#tablaB").fadeOut("slow");
-				$("#tablaC").fadeOut("slow");
-
-				$("#tablaA").fadeIn("slow");
-				//$(this).hide();
-			});
-			
-			$("#botonB").click(function(){
-				$("#tablaA").fadeOut("slow");
-				$("#tablaC").fadeOut("slow");
-				$("#tablaB").fadeIn("slow");
-				
-			});
-			
-			$("#botonC").click(function(){
-				$("#tablaA").fadeOut("slow");
-				$("#tablaB").fadeOut("slow");
-				$("#tablaC").fadeIn("slow");
-				
-			});
-			
-			
 		});
 
 	</script>
@@ -145,21 +130,15 @@
 		<div class="contenedor">
 		  <div id="texto1"><img src="images/slide5_texto1.png" alt="texto1"></div>
           <div id="texto2"><img src="images/slide5_texto2.png" alt="texto2"></div>
-          
-          <div id="botonA"><img src="images/Btn-A.jpg" ></div>
-          <div id="botonB"><img src="images/Btn-B.jpg" ></div>
-          <div id="botonC"><img src="images/Btn-C.jpg" ></div>
-          
-          
-          <div id="tablaA"><img src="images/tab-A.jpg" alt="tabla1"></div>
-          <div id="tablaB"><img src="images/tab-B.jpg" alt="tabla1"></div>
-          <div id="tablaC"><img src="images/tab-C.jpg" alt="tabla1"></div>
-         
-         
-         
-         
+          <div id="tabla1"><img src="images/slide5_tabla1.png" alt="tabla1"></div>
           <div id="texto3"><img src="images/slide5_texto3.png" alt="texto3"></div>
-          <div id="tabla2"><img src="images/slide5_tabla2.png" alt="tabla2"></div>
+          <div id="tabla2">
+          	<img src="images/slide5_tabla2B.png" id="tabla2B">
+          	<img src="images/slide5_tabla2C.png" id="tabla2C">
+          	<img src="images/slide5_tabla2D.png" id="tabla2D">
+          	<img src="images/slide5_tabla2E.png" id="tabla2E">
+          	<img src="images/slide5_tabla2.png"  id="tabla2A" alt="tabla2">
+          	</div>
           <div id="tabla3"><img src="images/slide5_biberon.png" alt="tabla3"></div>
 		</div>
   </div>

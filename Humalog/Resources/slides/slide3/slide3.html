@@ -16,8 +16,6 @@
 				$("#headerSlide").fadeIn("slow");
 			});
 			
-			
-			
 			//aparece el primer texto
 			$(this).delay(1000, function() {
 				
@@ -25,38 +23,31 @@
 					top : '150px'
 				}, {
 					queue : false,
-					duration : 500,
+					duration : 1000,
 					easing : 'easeOutBack'
 				});
 				$("#texto1").fadeIn("slow")
 			});
 			
-			$(this).delay(1500, function() {
-				$("#imagen1").fadeIn("slow");
+			//aparece el segundo texto
+			
+			//caja
+			$(this).delay(2000, function() {
+				
+				$("#esquema1").fadeIn("slow")
 			});
-			
-			
-				$(this).delay(2000, function() {
-				$("#esquema1").fadeIn("slow");
+			$(this).delay(3000, function() {
+				
+				$("#esquema2").fadeIn("slow")
 			});
-			
-						
-			$("#slide2BotonA").click(function(){
-				$("#cajaA").fadeIn("slow")
-				$(this).hide();
+			$(this).delay(4000, function() {
+				
+				$("#esquema3").fadeIn("slow")
 			});
-			
-			$("#slide2BotonB").click(function(){
-				$("#cajaB").fadeIn("slow")
-				$(this).hide();
+			$(this).delay(5000, function() {
+				
+				$("#esquema4").fadeIn("slow")
 			});
-			
-			$("#slide2BotonC").click(function(){
-				$("#cajaC").fadeIn("slow")
-				$(this).hide();
-			});
-			
-						
 		});
 
 	</script>
@@ -73,22 +64,10 @@
 					<div id="personaje1"><img src="images/cierre_peludo.png" alt="personaje"></div>
 				<div class="contenedor">-->
 					  <div id="texto1"><img src="images/txt_slide2.jpg" alt="texto1"></div>
-                      
-                      <div id="imagen1" >
-                      	 <img src="images/esquema_slide2.jpg" alt="esquema" >
-                        </div>
-                      
-                      <div id="esquema1">
-                        <img src="images/btn_graficas.gif" width="742" height="395" id="slide2BotonA">
-					    <img src="images/btn_graficas.gif" width="742" height="395" id="slide2BotonB">
-                        <img src="images/btn_graficas.gif" width="742" height="395" id="slide2BotonC">
-                      	
-                        <img src="images/esquema_slide2-A.png" id="cajaA" style="display:none;">
-                      	<img src="images/esquema_slide2-B.png" id="cajaB" style="display:none;">
-                      	<img src="images/esquema_slide2-C.png" id="cajaC" style="display:none;">
-                                           
-                       
-                      </div>
+                      <div id="esquema1"><img src="images/esquema1.jpg" alt="esquema"></div>
+                      <div id="esquema2"><img src="images/esquema2.png"></div>
+                      <div id="esquema3"><img src="images/esquema3.png"></div>
+                      <div id="esquema4"><img src="images/esquema4.png"></div>
                       <!--<div id="caja"><img src="images/cierre_caja.png" alt="caja"></div>-->
 				  </div>
 					
