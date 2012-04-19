@@ -12,7 +12,7 @@
 #import "Viewport.h"
 #import "ThumbnailStackView.h"
 
-#define FADE_DURATION 0.25
+#define FADE_DURATION 0.5
 #define STACK_OFFSET  -15
 
 @interface SlideController () {
@@ -49,8 +49,8 @@
     
     self.view = [[UIView alloc] initWithFrame:[Viewport contentArea]];
     self.view.opaque = YES;
-    self.view.backgroundColor = [UIColor whiteColor];
-    
+    //self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"nexiuminfantil.jpg"]];
     contentView = [slideProvider viewForDocumentAtIndex:currentSlide];
     contentView.frame = self.view.frame;
     [self.view addSubview:contentView];

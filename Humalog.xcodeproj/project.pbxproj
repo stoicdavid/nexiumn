@@ -75,6 +75,7 @@
 		AAB7DC04152D2176003450D8 /* menu3.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DBFF152D2176003450D8 /* menu3.png */; };
 		AAB7DC05152D2176003450D8 /* menu4.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DC00152D2176003450D8 /* menu4.png */; };
 		AAB7DC06152D2176003450D8 /* menu5.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DC01152D2176003450D8 /* menu5.png */; };
+		AAC8D844153FE9CE00FB9DD2 /* nexiuminfantil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC8D843153FE9CE00FB9DD2 /* nexiuminfantil.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		AAB7DBFF152D2176003450D8 /* menu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu3.png; sourceTree = "<group>"; };
 		AAB7DC00152D2176003450D8 /* menu4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu4.png; sourceTree = "<group>"; };
 		AAB7DC01152D2176003450D8 /* menu5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu5.png; sourceTree = "<group>"; };
+		AAC8D843153FE9CE00FB9DD2 /* nexiuminfantil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nexiuminfantil.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +415,7 @@
 		84E05FC415129FC1009FE5AF /* toolbars */ = {
 			isa = PBXGroup;
 			children = (
+				AAC8D843153FE9CE00FB9DD2 /* nexiuminfantil.jpg */,
 				AA8599C2153EE52E005FF4BA /* over_menu1.png */,
 				AA8599C3153EE52E005FF4BA /* over_menu2.png */,
 				AA8599C4153EE52E005FF4BA /* over_menu3.png */,
@@ -561,6 +564,7 @@
 				AA8599C9153EE52E005FF4BA /* over_menu3.png in Resources */,
 				AA8599CA153EE52E005FF4BA /* over_menu4.png in Resources */,
 				AA8599CB153EE52E005FF4BA /* over_menu5.png in Resources */,
+				AAC8D844153FE9CE00FB9DD2 /* nexiuminfantil.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
